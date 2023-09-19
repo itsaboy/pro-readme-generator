@@ -4,7 +4,7 @@
   "description": "Node program that generates a README.md file based on user input.",
   "main": "index.js",
   "scripts": {
-    "build": "npm run index.js"
+    "build": "node index.js"
   },
   "author": "itsaboy3366@gmail.com",
   "license": "MIT",
