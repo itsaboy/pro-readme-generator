@@ -2,15 +2,15 @@
 is passed in. If there is no license, returns an empty string. */ 
 const renderLicenseBadge = (license)  => {
   if (license === "Apache License 2.0") {
-    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`
+    return `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
   } else if (license === "GNU General Public License v3.0") {
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`
+    return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
   } else if (license === "ISC License") {
-    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`
+    return `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`
   } else if (license === "MIT License") {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   } else if (license === "Mozilla Public License 2.0") {
-    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]`
+    return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`
   } else if (license === "None") {
     return "";
   };
@@ -20,15 +20,15 @@ const renderLicenseBadge = (license)  => {
 If there is no license, returns an empty string. */ 
 const renderLicenseLink = (license) => {
   if (license === "Apache License 2.0") {
-    return `(https://opensource.org/licenses/Apache-2.0)`
+    return `https://opensource.org/licenses/Apache-2.0`
   } else if (license === "GNU General Public License v3.0") {
-    return `(https://www.gnu.org/licenses/gpl-3.0)`
+    return `https://www.gnu.org/licenses/gpl-3.0`
   } else if (license === "ISC License") {
-    return `(https://opensource.org/licenses/ISC)`
+    return `https://opensource.org/licenses/ISC`
   } else if (license === "MIT License") {
-    return `(https://opensource.org/licenses/MIT)`
+    return `https://opensource.org/licenses/MIT`
   } else if (license === "Mozilla Public License 2.0") {
-    return `(https://opensource.org/licenses/MPL-2.0)`
+    return `https://opensource.org/licenses/MPL-2.0`
   } else if (license === "None") {
     return "";
   };
@@ -37,23 +37,23 @@ const renderLicenseLink = (license) => {
 /* Function that returns the license section of README.
 If there is no license, returns an empty string. */
 const renderLicenseSection = (license) => {
-  return `## License  
-  ${renderLicenseBadge(license)}
+  return `## License    
+  ${license}    
   ${renderLicenseLink(license)}
-  ${license}`;
+  `;
 };
 
 // Function that generates markdown for README.
 const generateMarkdown = (answer) => {
-  return `# ${answer.title}
-  ## Description  
+  return `# ${answer.title} ${renderLicenseBadge(answer.license)}  
+  ## Description    
   ${answer.description}  
   ## Table of Contents  
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
+  * [Installation](#installation)  
+  * [Usage](#usage)  
+  * [License](#license)  
+  * [Contributing](#contributing)  
+  * [Tests](#tests)  
   * [Questions](#questions)  
   ## Installation  
   ${answer.installation}  

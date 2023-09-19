@@ -79,6 +79,7 @@ const init = () => {
             if (answer.confirm === false) {
                 init();
             } else {
+                console.log(`Readme file gnerated in ${path.join(process.cwd())}`)
                 writeToFile("README.md", generateMarkdown(answer));
             };
         });
