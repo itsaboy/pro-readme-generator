@@ -1,27 +1,9 @@
-# test ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)  
-  ## Description    
-  test  
-  ## Table of Contents  
-  * [Installation](#installation)  
-  * [Usage](#usage)  
-  * [License](#license)  
-  * [Contributing](#contributing)  
-  * [Tests](#tests)  
-  * [Questions](#questions)  
-  ## Installation  
-  test  
-  ## Usage  
-  test  
-  ## License    
-  Apache License 2.0    
-  https://opensource.org/licenses/Apache-2.0
-   
-  ## Contributing  
-  test  
-  ## Tests  
-  test  
-  ## Questions  
-  ### GitHub:  
-  [test](https://github.com/test)  
-  ### Email:  
-  [test](mailto:test)
+# Pro Readme Generator ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)   
+## Description    
+A Node program that prompts the user to input information to be used inside a readme file that is then generated.      
+## Demo  
+https://github.com/itsaboy/pro-readme-generator/assets/29829816/c94610c9-cdd8-4b43-b418-38dc775187c7    
+
+[Video Link](https://drive.google.com/file/d/1Sm4EPlaOXUJQJ0q-65QqNWdURfd0rLyM/view?usp=sharing)  
+## License    
+[MIT](https://opensource.org/licenses/MIT) 
