@@ -80,7 +80,7 @@ const init = () => {
                 init();
             } else {
                 console.log(`Readme file generated in ${path.join(process.cwd())}`)
-                writeToFile("README.md", generateMarkdown(answer));
+                writeToFile("generated README.md", generateMarkdown(answer));
             };
         });
 };
