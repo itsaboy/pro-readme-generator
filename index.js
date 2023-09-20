@@ -60,7 +60,7 @@ const questions = [
         type: "input"
     },
     {
-        message: "Generate a README.md file with this information?",
+        message: "Generate a README.md file with this information? Selecting 'no' will restart the prompts.",
         name: "confirm",
         type: "confirm"
     }
