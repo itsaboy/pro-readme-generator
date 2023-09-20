@@ -59,7 +59,7 @@ const generateMarkdown = (answer) => {
   ${answer.installation}  
   ## Usage  
   ${answer.usage}  
-  ${renderLicenseSection(answer.license)} 
+  ${renderLicenseSection(answer.license)}   
   ## Contributing  
   ${answer.contributing}  
   ## Tests  
@@ -68,7 +68,7 @@ const generateMarkdown = (answer) => {
   ### GitHub:  
   [${answer.username}](https://github.com/${answer.username})  
   ### Email:  
-  [${answer.email}](mailto:${answer.email})`;
+  Please send any questions about this program to [${answer.email}](mailto:${answer.email})`;
 };
 
 module.exports = generateMarkdown;
