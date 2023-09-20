@@ -2,9 +2,8 @@
 ## Description    
 A Node program that prompts the user to input information to be used inside a readme file that is then generated.      
 ## Demo  
-https://github.com/itsaboy/pro-readme-generator/assets/29829816/95438507-5390-47f2-a435-129a32d3b988    
+https://github.com/itsaboy/pro-readme-generator/assets/29829816/8ee79376-b56b-4088-8bd0-1273e220e342      
 
-[Video Link](https://drive.google.com/file/d/19f_9LVrguSdh6sGIZ9XXRaa5FyRJZkE2/view?usp=sharing)  
+[Video Link](https://drive.google.com/file/d/1JKRpnaMroa_3FUtuhN-QBrtHn6mBt68B/view?usp=sharing)  
 ## License    
-[MIT](https://opensource.org/licenses/MIT) 
-
+[MIT](https://opensource.org/licenses/MIT)
